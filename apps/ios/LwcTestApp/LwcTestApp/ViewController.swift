@@ -98,7 +98,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
             serverPort = "3333"
         }
         
-        return "\(serverAddress):\(serverPort)/lwc/preview/\(compName)"
+        return "\(serverAddress):\(serverPort)" //"\(serverAddress):\(serverPort)/lwc/preview/\(compName)"
     }
     
     /// Attempts at fetching the component name from the provided custom launch arguments.

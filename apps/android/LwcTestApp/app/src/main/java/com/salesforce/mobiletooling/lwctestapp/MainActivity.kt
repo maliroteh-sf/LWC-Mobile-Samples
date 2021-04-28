@@ -104,7 +104,7 @@ class MainActivity : AppCompatActivity() {
             serverPort = "3333"
         }
 
-        return "$serverAddress:$serverPort/lwc/preview/$compName"
+        return "$serverAddress:$serverPort" //"$serverAddress:$serverPort/lwc/preview/$compName"
     }
 
     /**

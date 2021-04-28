@@ -1,0 +1,9 @@
+{
+    "assets":[
+        {
+            "alias":"assetsDir",
+            "dir":"$rootDir/force-app/main/default/lwc/helloWorld/assets",
+            "urlPath":"/public/assets"
+        }
+    ]
+}
